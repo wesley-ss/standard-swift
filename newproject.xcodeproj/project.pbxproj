@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4572E0BE249D5A11002BEE62 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572E0BD249D5A11002BEE62 /* Refeicao.swift */; };
+		4572E0C0249D5A5A002BEE62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572E0BF249D5A5A002BEE62 /* Item.swift */; };
 		45DFDAB2249AF22F0062FDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DFDAB1249AF22F0062FDDC /* AppDelegate.swift */; };
 		45DFDAB4249AF22F0062FDDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DFDAB3249AF22F0062FDDC /* SceneDelegate.swift */; };
 		45DFDAB6249AF22F0062FDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DFDAB5249AF22F0062FDDC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4572E0BD249D5A11002BEE62 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		4572E0BF249D5A5A002BEE62 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		45DFDAAE249AF22F0062FDDC /* newproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DFDAB1249AF22F0062FDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45DFDAB3249AF22F0062FDDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4572E0C1249D5B48002BEE62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4572E0C2249D5B6C002BEE62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4572E0C3249D5B91002BEE62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		45DFDAA5249AF22E0062FDDC = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +83,12 @@
 			children = (
 				45DFDAB1249AF22F0062FDDC /* AppDelegate.swift */,
 				45DFDAB3249AF22F0062FDDC /* SceneDelegate.swift */,
+				4572E0BD249D5A11002BEE62 /* Refeicao.swift */,
+				4572E0BF249D5A5A002BEE62 /* Item.swift */,
 				45DFDAB5249AF22F0062FDDC /* ViewController.swift */,
+				4572E0C1249D5B48002BEE62 /* Models */,
+				4572E0C3249D5B91002BEE62 /* Views */,
+				4572E0C2249D5B6C002BEE62 /* Controllers */,
 				45DFDAB7249AF22F0062FDDC /* Main.storyboard */,
 				45DFDABA249AF22F0062FDDC /* Assets.xcassets */,
 				45DFDABC249AF22F0062FDDC /* LaunchScreen.storyboard */,
@@ -138,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4572E0C0249D5A5A002BEE62 /* Item.swift in Sources */,
 				45DFDAB6249AF22F0062FDDC /* ViewController.swift in Sources */,
 				45DFDAB2249AF22F0062FDDC /* AppDelegate.swift in Sources */,
 				45DFDAB4249AF22F0062FDDC /* SceneDelegate.swift in Sources */,
+				4572E0BE249D5A11002BEE62 /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T85XMUW58;
 				INFOPLIST_FILE = newproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T85XMUW58;
 				INFOPLIST_FILE = newproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
